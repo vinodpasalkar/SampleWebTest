@@ -36,7 +36,19 @@ Search below plugins one by one and install them
 
 To execute a particular test by tag run below command on terminal by going to the project directory
 
+mvn clean verify -Dmetafilter="+scenario name"
+
+For e.g. In our framework to execute the onlinePurchase , Execute below command
+
 mvn clean verify -Dmetafilter="+onlinePurchase"
+
+Meta filtering the stories/scenario mvn clean verify -Dmetafilter="+SmokeTest" -- This command will run the scenarios with the tag, "SmokeTest" This way we can use this on CI-CD by tagging the test case under the different tags like regression , smoke , sanity etc...
+
+To see the Results after execution
+
+Go to /ContactsApp testcases/Reports/Today's date time For E.g the folder name will be "report - 09-11-2019_16-06-36" Every time you run a scenario or scenarios , it will generate the report folder with current date and time
+
+Open index.html file in any browser to see the results.
 
 Below are sample report snapshots
 
@@ -44,4 +56,9 @@ Below are sample report snapshots
 
 
 <img width="1276" alt="Screen Shot 2019-11-22 at 16 03 04" src="https://user-images.githubusercontent.com/9302926/69495906-2bd54f00-0ec4-11ea-9641-9e1e21ad1ace.png">
+
+
+I have used serenity framework here.
+
+Serenity documentation Below can be referred for a further reading on serenity libraries http://thucydides.info/docs/serenity-staging/
 
