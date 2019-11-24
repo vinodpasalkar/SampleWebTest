@@ -40,4 +40,5 @@ mvn clean verify -Dmetafilter="+onlinePurchase"
 
 Below are sample report snapshots
 
+<img width="1278" alt="Screen Shot 2019-11-22 at 16 03 20" src="https://user-images.githubusercontent.com/9302926/69495887-00eafb00-0ec4-11ea-9b46-feb969404cd9.png">
 
