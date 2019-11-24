@@ -46,7 +46,7 @@ Meta filtering the stories/scenario mvn clean verify -Dmetafilter="+SmokeTest" -
 
 To see the Results after execution
 
-Go to /ContactsApp testcases/Reports/Today's date time For E.g the folder name will be "report - 09-11-2019_16-06-36" Every time you run a scenario or scenarios , it will generate the report folder with current date and time
+Go to /SampleWebTest/Reports/Today's date time For E.g the folder name will be "report - 09-11-2019_16-06-36" Every time you run a scenario or scenarios , it will generate the report folder with current date and time
 
 Open index.html file in any browser to see the results.
 
